@@ -1,0 +1,11 @@
+requests
+bs4
+colorama
+beautifulsoup4
+rich
+fake_useragent
+datetime
+pycryptodome
+inquirer
+pypasser
+sh
