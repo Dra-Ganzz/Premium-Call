@@ -48,3 +48,19 @@ python run.py
 `Tutorial Videos Klik Logo Yt`
 
 [![](https://img.shields.io/badge/Tutorial-white?logo=YouTube&logoColor=Brighred&labelColor=red)](https://youtu.be/qfiNH18VkC8?si=PTTaI20fW-g0Te4B) `<-- klik caranya`
+
+</p>
+
+<p align="center">
+  <img src="Data/Screenshot_20241111-080958.png">
+</p>
+
+Menu 2 Premium
+
+</p>
+
+<p align="center">
+  <img src="Data/Screenshot_20241111-081214.png">
+</p>
+
+• Yang mau beli bisa chat Tele > `t.me/@vindradoang`
