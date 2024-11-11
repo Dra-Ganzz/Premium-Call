@@ -63,4 +63,4 @@ Menu 2 Premium
   <img src="Data/Screenshot_20241111-081214.png">
 </p>
 
-• Yang mau beli bisa chat Tele > `t.me/@vindradoang`
+• Yang mau beli bisa chat Tele > `t.me/vindraganzz`
