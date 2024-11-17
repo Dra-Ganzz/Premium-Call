@@ -8,7 +8,8 @@ Script Spam Whatsapp Sms Terbaru 2024 😘
  <p align="center">
 
    <a href="https://github.com/Dra-Ganzz"><img src="http://readme-typing-svg.herokuapp.com?color=FFD700&center=true&vCenter=true&multiline=false&lines=Duar+Follow+github+Vindra+Ganzz+Dong+^_^" alt="UwU">
- 
+
+ `• Yang decrypt Fuck you men , cape anjing buatnya/dog cape for terimakasih ☺️
 # `Install Termux`
 
 ```python
