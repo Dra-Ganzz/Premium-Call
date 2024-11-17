@@ -59,9 +59,10 @@ python run.py
 Menu 2 Premium
 
 </p>
+Update premium 
 
 <p align="center">
-  <img src="Data/Screenshot_20241111-081214.png">
+  <img src="Data/Screenshot_20241118-064503.png">
 </p>
 
 • Yang mau beli bisa chat Tele > `t.me/vindraganzz`
