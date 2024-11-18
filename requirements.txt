@@ -9,3 +9,4 @@ pycryptodome
 inquirer
 pypasser
 sh
+cython
