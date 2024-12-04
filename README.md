@@ -40,7 +40,15 @@ ls
 git pull
 python run.py
 ```
-
+• `bila Terjadi error kalian ikuti aja langkah di bawah`
+```json
+cd
+rm -rf NewsSpam
+git clone https://github.com/Dra-Ganzz/NewsSpam
+cd NewsSpam
+git pull
+python run.py
+```
 # `Install Linux`
 ```python
 sudo apt update
