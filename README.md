@@ -11,14 +11,6 @@ Script Spam Whatsapp Sms Terbaru 2024 😘
 
  `• Yang decrypt Fuck you men , cape anjing buatnya/dog cape for terimakasih ☺️`
  
- | Kelebihan | Check |
-|--------|--------|
-| **Menu Tmbhan** |[✔️](https://github.com/Dra-Ganzz) |
-| **Spam Massive Kebanyak nomor** |[✔️](https://github.com/Dra-Ganzz) |
-| **Views Titok** |[✔️](https://github.com/Dra-Ganzz) |
-| **Sekian terimakasih** |[✔️](https://github.com/Dra-Ganzz) |
----------
-
 # `Install Termux`
 
 ```python
@@ -37,15 +29,6 @@ python run.py
 ```python
 cd Spm-Whatsapp
 ls
-git pull
-python run.py
-```
-• `bila Terjadi error kalian ikuti aja langkah di bawah`
-```json
-cd
-rm -rf NewsSpam
-git clone https://github.com/Dra-Ganzz/NewsSpam
-cd NewsSpam
 git pull
 python run.py
 ```
