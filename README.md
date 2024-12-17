@@ -17,6 +17,7 @@ Script Spam Whatsapp Sms Terbaru 2024 😘
 pkg update && pkg upgrade
 pkg install python
 pkg install python-pip
+pkg install tesseract
 pkg install git
 git clone https://github.com/Dra-Ganzz/NewsSpam
 cd NewsSpam
@@ -38,6 +39,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install git jq nodejs
 sudo apt install python3-pip
+sudo apt install tesseract
 pip install rich
 pip install rich-cli
 git clone https://github.com/Dra-Ganzz/NewsSpam
