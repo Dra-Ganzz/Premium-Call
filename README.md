@@ -64,7 +64,7 @@ Menu 2 Premium
 Update premium 
 
 <p align="center">
-  <img src="Data/Screenshot_20241118-064503.png">
+  <img src="Data/Screenshot_20250123-222019.png">
 </p>
 
 • Yang mau beli bisa chat Tele > `t.me/vindraganzz`
