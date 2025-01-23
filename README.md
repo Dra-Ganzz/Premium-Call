@@ -1,5 +1,5 @@
-# NewsSpam
-Script Spam Whatsapp Sms Terbaru 2024/2025 😘
+# Premium-Cws
+Script Spam Cws - Call Whatsapp Sms Terbaru 2024/2025 😘
 
 <p align="center">
 
