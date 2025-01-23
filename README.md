@@ -19,8 +19,8 @@ pkg install python
 pkg install python-pip
 pkg install tesseract
 pkg install git
-git clone https://github.com/Dra-Ganzz/NewsSpam
-cd NewsSpam
+git clone https://github.com/Dra-Ganzz/Premium-Cws
+cd Premium-Cws
 pip install -r requirements.txt
 git pull
 python run.py
@@ -28,7 +28,7 @@ python run.py
 
 `jalan Script`
 ```python
-cd Spm-Whatsapp
+cd Premium-Cws
 ls
 git pull
 python run.py
@@ -42,8 +42,8 @@ sudo apt install python3-pip
 sudo apt install tesseract
 pip install rich
 pip install rich-cli
-git clone https://github.com/Dra-Ganzz/NewsSpam
-cd NewsSpam
+git clone https://github.com/Dra-Ganzz/Premium-Cws
+cd Premium-Cws
 pip install -r requirements.txt
 python run.py
 ```
