@@ -22,6 +22,7 @@ pkg install git
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
 pip install -r requirements.txt
+pip install psutil
 git pull
 python run.py
 ```
@@ -45,6 +46,7 @@ pip install rich-cli
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
 pip install -r requirements.txt
+pip install psutil
 python run.py
 ```
 
