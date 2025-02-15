@@ -15,3 +15,5 @@ cython
 pytesseract
 requests-toolbelt
 pillow
+certifi
+dns-client
