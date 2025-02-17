@@ -17,3 +17,4 @@ requests-toolbelt
 pillow
 certifi
 dns-client
+urllib3
