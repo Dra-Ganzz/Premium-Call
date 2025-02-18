@@ -54,6 +54,14 @@ python run.py
 
 [![](https://img.shields.io/badge/Tutorial-white?logo=YouTube&logoColor=Brighred&labelColor=red)](https://youtu.be/qfiNH18VkC8?si=PTTaI20fW-g0Te4B) `<-- klik caranya`
 
+`Prilist Otp Call`
+</p>
+
+<p align="center">
+  <img src="Data/Screenshot_20250218-081103.png">
+</p>
+
+`menu Free`
 </p>
 
 <p align="center">
