@@ -25,15 +25,17 @@ cd Premium-Call
 pip install -r requirements.txt
 pip install psutil
 git pull
-python run.py
+make setup
+make run
 ```
 
-`jalan Script`
+`bila sudah install semua tinggal jalankan aja`
 ```python
 cd Premium-Call
 ls
 git pull
-python run.py
+make setup
+make run
 ```
 # `Install Linux`
 ```python
@@ -49,7 +51,16 @@ git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
 pip install -r requirements.txt
 pip install psutil
-python run.py
+make setup
+make run
+```
+`bila sudah install semua tinggal jalankan aja`
+```python
+cd Premium-Call
+ls
+git pull
+make setup
+make run
 ```
 
 `Tutorial Videos Klik Logo Yt`
