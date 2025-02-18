@@ -1,5 +1,5 @@
 # Premium-Call
-Script Spam Unlimited Call Whatsapp Sms Terbaru 2024/2025 😘
+Script Spam Unlimited Call Whatsapp Sms Terbaru 2025/2026 😘
 
 <p align="center">
 
@@ -13,7 +13,7 @@ Script Spam Unlimited Call Whatsapp Sms Terbaru 2024/2025 😘
  
 # `Install Termux`
 
-```python
+```bash
 pkg update && pkg upgrade
 apt install make clang
 pkg install python
@@ -30,15 +30,14 @@ make run
 ```
 
 `bila sudah install semua tinggal jalankan aja`
-```python
+```bash
 cd Premium-Call
 ls
 git pull
-make setup
 make run
 ```
 # `Install Linux`
-```python
+```bash
 sudo apt update
 sudo apt upgrade
 sudo apt install make clang
@@ -55,11 +54,10 @@ make setup
 make run
 ```
 `bila sudah install semua tinggal jalankan aja`
-```python
+```bash
 cd Premium-Call
 ls
 git pull
-make setup
 make run
 ```
 
