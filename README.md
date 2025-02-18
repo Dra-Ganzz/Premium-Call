@@ -15,6 +15,7 @@ Script Spam Unlimited Call Whatsapp Sms Terbaru 2024/2025 😘
 
 ```python
 pkg update && pkg upgrade
+apt install make clang
 pkg install python
 pkg install python-pip
 pkg install tesseract
@@ -38,6 +39,7 @@ python run.py
 ```python
 sudo apt update
 sudo apt upgrade
+sudo apt install make clang
 sudo apt install git jq nodejs
 sudo apt install python3-pip
 sudo apt install tesseract
