@@ -16,7 +16,7 @@ update:
 	@git pull
 
 run:
-	@bash main.c
+	@bash run.sh
 
 reset:
-	@rm main.c
+	@rm run.sh
