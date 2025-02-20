@@ -1,14 +1,22 @@
-setup:
-	apt-get update
-	apt-get upgrade
-	apt-get install ruby python ossp-uuid figlet pv toilet nodejs openssl-tool
-	apt-get install curl xh ncurses-utils clang bc nodejs-lts xz-utils
-	pip install -r requirements.txt
-	pip install httpie
-	pip install phonenumbers
-	@gem install lolcat
-	@npm -g i chalk chalk-animation
-	@npm -g i bash-obfuscate
-	@echo "[+] paket berhasil di setup"
+install:
+	@git pull
+	@clear
+	apt-get install bash curl wget jq
+	apt-get install python python-pip nano
+	apt-get install clang ncurses-utils xh
+	apt-get install xz-utils pv bc neofetch
+	apt-get install ossp-uuid openssl openssl-tool
+	python -m pip install -r data/requirements.txt
+	@gcc main.c -o main
+	@clear
+	@printf "\n\033[37m[\033[33m*\033[37m] Package & module berhasil diinstall \033[31m.."
+	@printf "\n\033[37m[\033[31m!\033[37m] Run script dg ketik \033[1;30m'\033[0m\033[32m./main\033[1;30m' \033[0m\033[37matau \033[1;30m'\033[0m\033[32mmake run\033[1;30m'\n\n"
+
+update:
+	@git pull
+
 run:
-	@bash run.c
+	@./main
+
+reset:
+	@rm main
