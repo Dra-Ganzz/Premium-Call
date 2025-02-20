@@ -4,7 +4,7 @@ install:
 	apt-get install bash curl wget jq
 	apt-get install python python-pip nano
 	apt-get install clang ncurses-utils xh
-	apt-get upgrade apt-get install curl jq git ossp-uuid ncurses-utils lzma nodejs
+	apt-get install curl jq git ossp-uuid ncurses-utils lzma nodejs
 	apt-get install ossp-uuid openssl openssl-tool
 	python -m pip install -r Data/requirements.txt
 	@npm -g i bash-obfuscate
