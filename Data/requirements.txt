@@ -18,4 +18,4 @@ pillow
 certifi
 dns-client
 cloudscraper
-urllib
+urllib3
