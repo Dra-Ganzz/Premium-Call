@@ -1,0 +1,21 @@
+name: Jalankan Skrip Otomatis
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v3
+
+      - name: Set Izin Eksekusi
+        run: chmod +x run.sh
+
+      - name: Jalankan Skrip
+        run: ./run.sh
+        
