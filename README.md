@@ -26,7 +26,7 @@ cd Premium-Call
 pip install -r requirements.txt
 pip install psutil
 git pull
-make setup
+make install
 make run
 ```
 
@@ -34,7 +34,7 @@ make run
 ```bash
 cd Premium-Call
 ls
-git pull
+make update
 make run
 ```
 # `Install Linux`
@@ -51,6 +51,6 @@ pip install rich-cli
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
 pip install -r requirements.txt
-make setup
+make install
 make run
 ```
