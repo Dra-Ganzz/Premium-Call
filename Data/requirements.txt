@@ -8,7 +8,6 @@ psutil
 datetime
 pycryptodome
 inquirer
-pypasser
 sh
 googletrans==4.0.0-rc1
 cython
