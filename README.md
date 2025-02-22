@@ -62,11 +62,11 @@ make run
     <th>Jenis</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/Bayu12345677/Servers/blob/main/Termux_Terror/img/33.jpg" alt="Gambar 1" width="150"></td>
+    <td><img src="https://github.com/Dra-Ganzz/Data/blob/main/Premium-Call/Data/Screenshot_20250218-081103.png" alt="Gambar 1" width="150"></td>
     <td><code>CALL</code></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Bayu12345677/Servers/blob/main/Termux_Terror/img/22.jpg" alt="Gambar 2" width="150"></td>
+    <td><img src="https://github.com/Dra-Ganzz/Premium-Call/Data/Data/Screenshot_20250123-222019.png" alt="Gambar 2" width="150"></td>
     <td><code>WHATSAPP</code></td>
   </tr>
 </table></div>
