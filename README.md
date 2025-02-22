@@ -62,11 +62,11 @@ make run
     <th>Jenis</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/Dra-Ganzz/Data/blob/main/Premium-Call/Data/Screenshot_20250218-081103.png" alt="Gambar 1" width="150"></td>
+    <td><img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/Otp_prem.png" alt="Gambar 1" width="150"></td>
     <td><code>CALL</code></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Dra-Ganzz/Premium-Call/Data/Data/Screenshot_20250123-222019.png" alt="Gambar 2" width="150"></td>
-    <td><code>WHATSAPP</code></td>
+    <td><img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/menu_prem.png" alt="Gambar 2" width="150"></td>
+    <td><code>Tampilan Menu</code></td>
   </tr>
 </table></div>
