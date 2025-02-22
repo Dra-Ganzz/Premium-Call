@@ -14,8 +14,8 @@ googletrans==4.0.0-rc1
 cython
 pytesseract
 requests-toolbelt
-pillow
 certifi
 dns-client
 cloudscraper
 urllib3
+pillow
