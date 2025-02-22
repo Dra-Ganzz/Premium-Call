@@ -17,5 +17,4 @@ requests-toolbelt
 certifi
 dns-client
 cloudscraper
-urllib3
 pillow
