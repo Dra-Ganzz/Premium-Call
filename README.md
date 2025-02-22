@@ -30,7 +30,7 @@ make install
 make run
 ```
 
-`bila sudah install semua tinggal jalankan aja`
+`bila sudah install semua tinggal jalankan aja Linux - Termux`
 ```bash
 cd Premium-Call
 ls
@@ -54,3 +54,19 @@ pip install -r requirements.txt
 make install
 make run
 ```
+
+<div align="center">
+<table>
+  <tr>
+    <th>Sample</th>
+    <th>Jenis</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Bayu12345677/Servers/blob/main/Termux_Terror/img/33.jpg" alt="Gambar 1" width="150"></td>
+    <td><code>CALL</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Bayu12345677/Servers/blob/main/Termux_Terror/img/22.jpg" alt="Gambar 2" width="150"></td>
+    <td><code>WHATSAPP</code></td>
+  </tr>
+</table></div>
