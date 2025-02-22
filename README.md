@@ -54,7 +54,8 @@ pip install -r requirements.txt
 make install
 make run
 ```
-
+# `•`
+`Untuk Foto tampilan dan status spam nomor telepon`
 <div align="center">
 <table>
   <tr>
