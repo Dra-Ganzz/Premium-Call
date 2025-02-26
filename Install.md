@@ -1,3 +1,4 @@
+### Install acript
 <details open>
 
 ```php
@@ -16,7 +17,8 @@ git pull
 make install
 make run
 ```
-
+<details open>
+  
 `bila sudah install semua tinggal jalankan aja`
 ```bash
 cd Premium-Call
