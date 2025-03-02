@@ -11,7 +11,16 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
 
  `• Yang decrypt Fuck you men , cape anjing buatnya/dog cape for terimakasih ☺️`
 
- `Tidak Free,`
+ Tidak Free,
+```php
+• List Harga
+• 1 Minggu 5k
+• 2 Minggu 10k
+• 3 Minggu 30k
+• 2 Bulan  50k
+• 1 Tahun. 70k
+• Ini Sudah Termasuk Murah Dan pastinya work cuy
+```
 # `Install Termux`
 
 ```bash
