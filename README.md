@@ -24,7 +24,6 @@ pkg install tesseract
 pkg install git
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
-pip install -r requirements.txt
 pip install psutil
 git pull
 make install
@@ -51,7 +50,6 @@ pip install rich
 pip install rich-cli
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
-pip install -r requirements.txt
 make install
 make run
 ```
