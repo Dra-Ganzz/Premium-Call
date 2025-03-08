@@ -1,4 +1,5 @@
 ### Install acript
+Install nya Satu² Perbaris Jangan salin install semua tar error, kalo di bilangin jangan ngeyel
 <details open>
 
 ```php
