@@ -25,7 +25,7 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
 
 
 # `Install Termux`
-
+Install nya Satu² Perbaris Jangan salin install semua tar error
 ```bash
 pkg update && pkg upgrade
 apt install make clang
