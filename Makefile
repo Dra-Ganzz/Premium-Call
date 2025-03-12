@@ -20,7 +20,7 @@ update:
 	@git pull
 
 run:
-	@bash run.sh
+	@python premium.py
 
 reset:
 	@rm run.sh
