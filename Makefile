@@ -23,4 +23,4 @@ run:
 	@python premium.py
 
 reset:
-	@rm run.sh
+	@rm premium.py
