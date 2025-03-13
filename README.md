@@ -21,9 +21,11 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
 • 1 Tahun. 70k
 • Ini Sudah Termasuk Murah Dan pastinya work cuy
 ```
+</details>
+
+## Belum Punya termux?
+- Download Termux Terbaru <code><a href="https://sfile.mobi/6OlP6WLzXOs">klik disini Download</a></code>
 - Chat Telegram Untuk Berlangganan <code><a href="https://t.me/vindraganzz">klik disini bre</a></code>
-
-
 # `Install Termux`
 Install nya Satu² Perbaris Jangan salin install semua tar error
 ```bash
