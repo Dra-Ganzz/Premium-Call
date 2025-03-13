@@ -1,6 +1,8 @@
 install:
 	@git pull
 	@clear
+	apt-get update
+	apt-get upgrade
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid
 	apt-get install bash curl wget jq
