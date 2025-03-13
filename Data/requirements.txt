@@ -18,3 +18,4 @@ dns-client
 cloudscraper
 pillow
 faker
+rich-cli
