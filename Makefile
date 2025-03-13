@@ -1,4 +1,23 @@
+# Deteksi OS
+OS := $(shell uname -o)
+
+# Target utama: Install dependencies
 install:
+	@git pull
+	@clear
+ifeq ($(OS), GNU/Linux)
+	@echo "Menggunakan APT untuk Ubuntu/WSL..."
+	sudo apt-get update && sudo apt-get upgrade -y
+	sudo apt-get install -y ruby python3 python3-pip nodejs npm figlet pv toilet \
+		curl wget jq xz-utils clang ncurses-utils libjpeg-turbo libpng libtiff freetype \
+		ossp-uuid openssl nano
+	pip3 install -r Data/requirements.txt
+	npm install -g bash-obfuscate
+	gem install lolcat
+endif
+
+ifeq ($(OS), Android)
+	@echo "Menggunakan pkg untuk Termux..."
 	@git pull
 	@clear
 	apt-get update
@@ -14,15 +33,35 @@ install:
 	python -m pip install -r Data/requirements.txt
 	@npm -g i bash-obfuscate
 	@gem install lolcat
+endif
+
+ifeq ($(OS), Darwin)
+	@echo "Menggunakan Homebrew untuk macOS..."
+	brew install ruby python3 node figlet pv toilet curl wget jq xz clang nano
+	pip3 install -r Data/requirements.txt
+	npm install -g bash-obfuscate
+	gem install lolcat
+endif
+
+ifeq ($(OS), Msys)
+	@echo "Menggunakan Pacman untuk Windows (MSYS2)..."
+	pacman -Syu --noconfirm
+	pacman -S --noconfirm ruby python python-pip nodejs npm figlet pv toilet curl \
+		wget jq xz clang nano
+	python -m pip install -r Data/requirements.txt
+	npm install -g bash-obfuscate
+	gem install lolcat
+endif
+
 	@clear
-	@printf "\n\033[37m[\033[33m*\033[37m] Package & module berhasil diinstall \033[31m.."
+	@printf "\n\033[37m[\033[33m*\033[37m] Package & module berhasil diinstall \033[31m..\n"
 	@printf "\n\033[37m[\033[31m!\033[37m] Run script dg ketik \033[1;30m'\033[0m\033[32m./main\033[1;30m' \033[0m\033[37matau \033[1;30m'\033[0m\033[32mmake run\033[1;30m'\n\n"
 
 update:
 	@git pull
 
 run:
-	@python premium.py
+	@python3 premium.py
 
 reset:
-	@rm premium.py
+	@rm -f premium.py
