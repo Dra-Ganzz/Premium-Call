@@ -39,7 +39,7 @@ pkg install git
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
 pip install psutil
-git pull
+make update
 make install
 make run
 ```
