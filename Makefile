@@ -11,7 +11,7 @@ install:
 		apt-get install python python-pip nano
 		apt-get install clang ncurses-utils xh
 		apt-get install ossp-uuid openssl openssl-tool
-	else:
+	else \
 		echo "Detected: Linux (Ubuntu/WSL/Server)"; \
 		apt-get update && apt-get upgrade -y; \
 		apt-get install ruby python3 figlet pv toilet nodejs uuid-runtime -y; \
