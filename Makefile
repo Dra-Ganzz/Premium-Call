@@ -61,7 +61,7 @@ update:
 	@git pull
 
 run:
-	@python3 premium.py
+	@node encc.js
 
 reset:
-	@rm -f premium.py
+	@rm -f encc.js
