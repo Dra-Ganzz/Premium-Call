@@ -56,6 +56,14 @@ ls
 make update
 make run
 ```
+</details>
+
+## Bila mengalami error
+```
+make reset
+make update
+make run
+```
 # `Install Linux`
 ```bash
 sudo apt update
