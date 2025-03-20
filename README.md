@@ -12,7 +12,7 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
  `• Yang decrypt Fuck you men , cape anjing buatnya/dog cape for terimakasih ☺️`
 
  Tidak Free,List harga
- <details open>
+ <details close>
    
 ```php
 • List Harga
