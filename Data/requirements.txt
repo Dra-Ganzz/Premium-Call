@@ -19,3 +19,4 @@ cloudscraper
 pillow
 faker
 rich-cli
+httpx
