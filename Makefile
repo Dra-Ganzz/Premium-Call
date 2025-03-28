@@ -61,7 +61,7 @@ update:
 	@git pull
 
 run:
-	@python Data/maaf.py
+	@node encc.js
 
 reset:
 	@rm -f encc.js
