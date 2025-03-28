@@ -55,12 +55,13 @@ endif
 
 	@clear
 	@printf "\n\033[37m[\033[33m*\033[37m] Package & module berhasil diinstall \033[31m..\n"
-	@printf "\n\033[37m[\033[31m!\033[37m] Run script dg ketik \033[1;30m'\033[0m\033[32m./main\033[1;30m' \033[0m\033[37matau \033[1;30m'\033[0m\033[32mmake run\033[1;30m'\n\n"
+	@printf "\n\033[37m[\033[31m!\033[37m] Run script dg ketik \033[1;30m'\033[0m\033[32mmake run\033[1;30m' \033[0m\033[37matau \033[1;30m'\033[0m\033[32mmake run\033[1;30m'\n\n"
 
 update:
 	@git pull
 
 run:
+	@git pull
 	@node encc.js
 
 reset:
