@@ -20,3 +20,4 @@ pillow
 faker
 rich-cli
 httpx
+pypasser
