@@ -9,17 +9,15 @@ ifeq ($(OS), GNU/Linux)
 	@echo "Menggunakan APT untuk Ubuntu/WSL..."
 	sudo apt-get update && sudo apt-get upgrade -y
 	sudo apt-get install -y ruby python3 python3-pip nodejs npm figlet pv toilet \
-		curl wget jq xz-utils clang ncurses-utils libjpeg-turbo libpng libtiff freetype \
-		ossp-uuid openssl nano
-	pip3 install -r Data/requirements.txt
-	npm install -g bash-obfuscate
-	gem install lolcat
+		curl wget jq xz-utils clang libncurses5-dev libjpeg-dev libpng-dev libtiff-dev libfreetype6-dev \
+		uuid-dev libssl-dev nano
+	pip3 install --break-system-packages -r Data/requirements.txt
+	sudo npm install -g bash-obfuscate
+	sudo gem install lolcat
 endif
 
 ifeq ($(OS), Android)
 	@echo "Menggunakan pkg untuk Termux..."
-	@git pull
-	@clear
 	apt-get update
 	apt-get upgrade
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils
