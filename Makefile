@@ -56,7 +56,12 @@ endif
 	@printf "\n\033[37m[\033[31m!\033[37m] Run script dg ketik \033[1;30m'\033[0m\033[32mmake run\033[1;30m' \033[0m\033[37matau \033[1;30m'\033[0m\033[32mmake run\033[1;30m'\n\n"
 
 update:
-	@git pull
+ifeq ($(OS), GNU/Linux)
+	pip3 install --break-system-packages -r Data/requirements.txt
+endif
+
+ifeq ($(OS), Android)
+	python -m pip install -r Data/requirements.txt
 
 run:
 	@git pull
