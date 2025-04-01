@@ -10,7 +10,7 @@ ifeq ($(OS), GNU/Linux)
 	sudo apt-get update && sudo apt-get upgrade -y
 	sudo apt-get install -y ruby python3 python3-pip nodejs npm figlet pv toilet \
 		curl wget jq xz-utils clang libncurses5-dev libjpeg-dev libpng-dev libtiff-dev libfreetype6-dev \
-		uuid-dev libssl-dev nano
+		uuid-dev libssl-dev nano ffmpeg
 	pip3 install --break-system-packages -r Data/requirements.txt
 	sudo npm install -g bash-obfuscate
 	sudo gem install lolcat
@@ -22,7 +22,7 @@ ifeq ($(OS), Android)
 	apt-get upgrade
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid xz-utils
-	apt-get install bash curl wget jq
+	apt-get install bash curl wget jq ffmpeg
 	apt-get install nodejs-lts python
 	apt-get install libjpeg-turbo libpng libtiff freetype -y
 	apt-get install python python-pip nano
@@ -35,7 +35,7 @@ endif
 
 ifeq ($(OS), Darwin)
 	@echo "Menggunakan Homebrew untuk macOS..."
-	brew install ruby python3 node figlet pv toilet curl wget jq xz clang nano
+	brew install ruby python3 node figlet pv toilet curl wget jq xz clang nano ffmpeg
 	pip3 install -r Data/requirements.txt
 	npm install -g bash-obfuscate
 	gem install lolcat
@@ -45,7 +45,7 @@ ifeq ($(OS), Msys)
 	@echo "Menggunakan Pacman untuk Windows (MSYS2)..."
 	pacman -Syu --noconfirm
 	pacman -S --noconfirm ruby python python-pip nodejs npm figlet pv toilet curl \
-		wget jq xz clang nano
+		wget jq xz clang nano ffmpeg
 	python -m pip install -r Data/requirements.txt
 	npm install -g bash-obfuscate
 	gem install lolcat
