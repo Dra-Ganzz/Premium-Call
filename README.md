@@ -12,12 +12,14 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
  `• Yang decrypt Fuck you men , cape anjing buatnya/dog cape for terimakasih ☺️`
 
  Tidak Free,List harga
- <details close>
+ <details open>
    
 ```php
 • List Harga
 • 50.000 Ribu 3 Minggu
 • kenapa jadi naik bang saya sudah update otp 30 spam call random followers Instagram work
+payment:
+litecoin - Trx - Dana - Gopay
 ```
 </details>
 
