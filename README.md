@@ -16,7 +16,7 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
    
 ```php
 • List Harga
-• 50.000 Ribu 3 Minggu
+• chat admin
 • kenapa jadi naik bang saya sudah update otp 30 spam call random followers Instagram work
 payment:
 litecoin - Trx - Dana - Gopay
