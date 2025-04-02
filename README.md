@@ -17,7 +17,7 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
 ```php
 • List Harga
 • chat admin
-• kenapa jadi naik bang saya sudah update otp 30 spam call random followers Instagram work
+• kenapa jadi naik bang saya sudah update untuk spam otp 30 spam call support +62 ,kalo yang lain tidakrandom followers Instagram work
 payment:
 litecoin - Trx - Dana - Gopay
 ```
