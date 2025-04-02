@@ -16,15 +16,8 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
    
 ```php
 • List Harga
-• 2 Hari   2.500 perak
-• 1 Minggu 5k
-• 2 Minggu 10k
-• 3 Minggu 30k
-• 1 Bulan  40k
-• 2 Bulan  50k
-• 1 Tahun  70k
-• 2 Tahun  125k
-• Ini Sudah Termasuk Murah Dan pastinya work cuy
+• 50.000 Ribu 3 Minggu
+• kenapa jadi naik bang saya sudah update otp 30 spam call random followers Instagram work
 ```
 </details>
 
