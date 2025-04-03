@@ -38,7 +38,7 @@ make run
 # `Install Termux`
 Install nya Satu² Perbaris Jangan salin install semua tar error
 ```bash
-pkg update && pkg upgrade
+apt update && apt upgrade
 apt install make clang
 apt install wget curl
 pkg install python
