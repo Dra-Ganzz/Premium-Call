@@ -69,7 +69,7 @@ endif
 
 run:
 	@git pull
-	@node encc.py
+	@python3 encc.py
 
 reset:
 	@rm -f encc.py
