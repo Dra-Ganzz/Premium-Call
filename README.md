@@ -98,6 +98,11 @@ make run
     <td><code>CALL</code></td>
   </tr>
   <tr>
+    <td><img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/IMG-20250404-WA0013.jpg" alt="Gambar 2" width="150"></td>
+</td>
+    <td><code>Osint</code></td>
+  </tr>
+  <tr>
     <td><img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/menu_prem.png" alt="Gambar 2" width="150"></td>
     <td><code>Tampilan Menu</code></td>
   </tr>
