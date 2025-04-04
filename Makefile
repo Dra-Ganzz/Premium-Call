@@ -10,7 +10,7 @@ ifeq ($(OS), GNU/Linux)
 	sudo apt-get update && sudo apt-get upgrade -y
 	sudo apt-get install -y ruby python3 python3-pip nodejs npm figlet pv toilet \
 		curl wget jq xz-utils clang libncurses5-dev libjpeg-dev libpng-dev libtiff-dev libfreetype6-dev \
-		uuid-dev libssl-dev nano
+		uuid-dev libssl-dev nano python3-cryptography
 	pip3 install --break-system-packages -r Data/requirements.txt
 	sudo npm install -g bash-obfuscate
 	sudo gem install lolcat
