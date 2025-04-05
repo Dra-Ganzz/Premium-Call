@@ -77,8 +77,8 @@ sudo apt install make clang
 sudo apt install git jq nodejs
 sudo apt install wget curl
 sudo apt install python3-pip
-sudo apt install tesseract
-sudi pip3 install rich
+sudo apt install -y tesseract-ocr
+sudo pip3 install rich
 sudo pip3 install rich-cli
 sudo apt-get update && sudo apt-get install -y python3-cryptography
 git clone https://github.com/Dra-Ganzz/Premium-Call
