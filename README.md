@@ -67,7 +67,6 @@ make run
 
 ## Bila mengalami error
 ```
-make reset
 make update
 make run
 ```
