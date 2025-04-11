@@ -47,7 +47,7 @@ pkg install python
 pkg install python-pip
 pkg install tesseract
 pkg install git
-pkg install -y python3-cryptography
+pkg install -y python-cryptography
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
 pip install psutil
