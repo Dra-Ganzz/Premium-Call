@@ -1,6 +1,9 @@
 # Premium-Call
 Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Buat Spam Penipu - dan Spam temen Yang punya Utang Tapi gabayar² bikin kesel 😮‍💨🤭
 
+  <img src="https://img.shields.io/github/stars/Dra-Ganzz/Premium-Call?logo=github&style=for-the-badge">
+  <br><br>
+
 <p align="center">
 
   <a href="https://github.com/Dra-Ganzz"><img src="http://readme-typing-svg.herokuapp.com?color=BF00FF&center=true&vCenter=true&multiline=false&lines=Kasih+Star+Dong+^_^" alt="UwU">
