@@ -56,7 +56,12 @@ make run
 
 ## Bila mengalami error
 ```
-make update
+- error: Your local changes to the following files would be overwritten by merge:
+cd $HOME
+rm -rf Premium-Call
+git clone https://github.com/Dra-Ganzz/Premium-Call
+cd Premium-Call
+ls
 make run
 ```
 
