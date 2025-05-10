@@ -72,8 +72,8 @@ endif
 
 run:
 	@git pull
-	@printf "\033[37m[\033[31m!\033[37m] script sedang di jalankan agak lama bukan stuck\033[1;97m"
+	@printf "\033[37m[\033[31m!\033[37m] script sedang di jalankan agak lama bukan stuck\033[1;97m\n"
 	@bash new.enc
 
 reset:
-	@rm -f encc.py
+	@rm -f new.enc
