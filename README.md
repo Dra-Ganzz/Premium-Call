@@ -12,20 +12,6 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
 
    <a href="https://github.com/Dra-Ganzz"><img src="http://readme-typing-svg.herokuapp.com?color=FFD700&center=true&vCenter=true&multiline=false&lines=Duar+Follow+github+Vindra+Ganzz+Dong+^_^" alt="UwU">
 
- `• Yang decrypt Fuck you men , cape anjing buatnya/dog cape for terimakasih ☺️`
-
- Tidak Free,List harga
- <details open>
-   
-```php
-• List Harga
-• chat admin
-• update untuk spam call random support +62 ,
-kalo yang lain support all,followers Instagram work
-payment:
-litecoin - Trx - Dana - Gopay
-```
-</details>
 
 ## Belum Punya termux?
 - Download Termux Terbaru <code><a href="https://f-droid.org/repo/com.termux_1021.apk">klik disini Download</a></code>
