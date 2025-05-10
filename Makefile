@@ -72,7 +72,7 @@ endif
 
 run:
 	@git pull
-	@printf "\n\033[37m[\033[31m!\033[37m] script sedang di jalankan agak lama bukan stuck\033[1;30m'\n\n"
+	@printf "\033[37m[\033[31m!\033[37m] script sedang di jalankan agak lama bukan stuck\033[1;97m"
 	@python encc.py
 
 reset:
