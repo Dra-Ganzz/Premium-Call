@@ -30,7 +30,7 @@ ifeq ($(OS), Android)
 	apt-get install libjpeg-turbo libpng libtiff freetype -y
 	apt-get install python python-pip nano
 	apt-get install clang ncurses-utils xh
-	apt-get install ossp-uuid openssl openssl-tool php
+	apt-get install ossp-uuid openssl openssl-tool php ffmpeg
 	python -m pip install -r Data/requirements.txt
 	@npm -g i bash-obfuscate
 	@gem install lolcat
