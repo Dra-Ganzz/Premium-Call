@@ -24,7 +24,7 @@ ifeq ($(OS), Android)
 	apt-get upgrade
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid xz-utils
-	apt-get install bash curl wget jq
+	apt-get install bash curl wget jq clang
 	apt-get install nodejs-lts python
 	apt-get install -y python-cryptography
 	apt-get install libjpeg-turbo libpng libtiff freetype -y
