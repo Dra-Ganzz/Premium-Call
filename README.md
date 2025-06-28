@@ -24,7 +24,7 @@ pip uninstall httpx httpcore -y
 make install
 make run
 ```
-# `Install Termux`
+# `Pertama Install Termux`
 Install nya Satu² Perbaris Jangan salin install semua tar error
 ```bash
 cd $HOME
@@ -44,15 +44,13 @@ pip install psutil
 make update
 make install
 make run
-```
 
-`bila sudah install semua tinggal jalankan aja Linux - Termux`
-```bash
+•^ KALO UDAH INSTALL DI ATAS TINGGAL LANGSUNG AJA ↓
+cd $HOME
 cd Premium-Call
-ls
-make update
 make run
 ```
+
 </details>
 
 ## Bila mengalami error
