@@ -21,3 +21,4 @@ rich-cli
 httpx
 pypasser
 cryptography
+psutil
