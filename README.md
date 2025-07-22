@@ -40,7 +40,6 @@ pkg install git
 pkg install -y python-cryptography
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
-pip install psutil
 make update
 make install
 make run
