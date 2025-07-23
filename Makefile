@@ -1,4 +1,4 @@
-setup:
+install:
 	apt-get update
 	apt-get upgrade
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs openssl-tool file silversearcher-ag zsh -y
@@ -12,5 +12,5 @@ setup:
 	@npm -g i chalk chalk-animation
 	@echo "[+] paket berhasil di setup"
 
-Run:
+run:
 	@bash apps.sh
