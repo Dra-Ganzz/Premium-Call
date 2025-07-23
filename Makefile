@@ -11,6 +11,8 @@ install:
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
 	@echo "[+] paket berhasil di setup"
+update:
+        pip install -r Data/requirements.txt
 
 run:
 	@bash apps.sh
