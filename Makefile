@@ -10,7 +10,10 @@ install:
 	pip install phonenumbers
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
-	@echo "[+] paket berhasil di setup"
+	@echo "[+] paket berhasil di setup Jalankan make run | bash apps.sh"
+
+update:
+	pip install -r Data/requirements.txt
 
 run:
 	@bash apps.sh
