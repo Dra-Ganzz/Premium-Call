@@ -16,4 +16,5 @@ update:
 	pip install -r Data/requirements.txt
 
 run:
+	@echo "[+] Lagi Di Run Sabar"
 	@bash apps.sh
