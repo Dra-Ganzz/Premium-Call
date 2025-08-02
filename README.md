@@ -1,3 +1,8 @@
+Welcome
+--------|
+![](https://media.tenor.com/iVCiM9W7cvYAAAAd/welcome.gif)
+
+
 # Premium-Call
 Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Buat Spam Penipu - dan Spam temen Yang punya Utang Tapi gabayar² bikin kesel 😮‍💨🤭
 
