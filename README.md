@@ -18,7 +18,7 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
    <a href="https://github.com/Dra-Ganzz"><img src="http://readme-typing-svg.herokuapp.com?color=FFD700&center=true&vCenter=true&multiline=false&lines=Duar+Follow+github+Vindra+Ganzz+Dong+^_^" alt="UwU">
 
 
-## Belum Punya termux?
+## Download Termux yang ini Biar Bisa install?
 - Download Termux Terbaru <code><a href="https://f-droid.org/repo/com.termux_1021.apk">klik disini Download</a></code>
 - Chat Telegram Untuk Berlangganan <code><a href="https://t.me/vindraganzz">klik disini bre</a></code>
 - Cek Video di YouTube <code><a href="https://youtu.be/iBr8EBQP6kk?si=lANVMPSu1m7cANPO">klik disini bre</a></code>
@@ -32,8 +32,6 @@ make run
 # `Pertama Install Termux`
 Install nya Satu² Perbaris Jangan salin install semua tar error
 ```bash
-cd $HOME
-rm -rf Premium-Call
 apt update && apt upgrade
 apt install make clang
 apt install wget curl
