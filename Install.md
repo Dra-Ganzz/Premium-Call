@@ -8,7 +8,7 @@ Di Sarankan Menggunakan Termux Terbaru Agar Install Tidak Error Scriptnya.
 Install nya Satu² Perbaris Jangan salin install semua tar error, kalo di bilangin jangan ngeyel
 <details open>
 
-```php
+```python
 cd $HOME
 pkg update && pkg upgrade
 apt install make clang
@@ -19,7 +19,6 @@ pkg install tesseract
 pkg install git
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
-pip install psutil
 git pull
 make install
 make run
