@@ -21,4 +21,3 @@ rich-cli
 httpx
 pypasser
 urllib3
-psutil
