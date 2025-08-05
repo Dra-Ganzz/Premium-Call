@@ -2,7 +2,7 @@
 </details>
 
 ## Install Termux
-Mungkin Dari kalian Ada yang belum install termux jadi saya sediakan termux terbaru
+Di Sarankan Menggunakan Termux Terbaru Agar Install Tidak Error Scriptnya.
 - Download Termux Terbaru <code><a href="https://f-droid.org/repo/com.termux_1021.apk">klik disini Download</a></code>
 
 Install nya Satu² Perbaris Jangan salin install semua tar error, kalo di bilangin jangan ngeyel
