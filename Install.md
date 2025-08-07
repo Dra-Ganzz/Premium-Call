@@ -10,6 +10,7 @@ Install nya Satu² Perbaris Jangan salin install semua tar error, kalo di bilang
 
 ```python
 cd $HOME
+rm -rf Premium-Call
 pkg update && pkg upgrade
 apt install make clang
 apt install wget curl
