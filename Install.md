@@ -28,6 +28,7 @@ make run
   
 `bila sudah install semua tinggal jalankan aja`
 ```bash
+cd $HOME
 cd Premium-Call
 ls
 make update
