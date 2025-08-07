@@ -32,6 +32,8 @@ make run
 # `Pertama Install Termux`
 Install nya Satu² Perbaris Jangan salin install semua tar error
 ```bash
+cd $HOME
+rm -rf Premium-Call
 apt update && apt upgrade
 apt install make clang
 apt install wget curl
