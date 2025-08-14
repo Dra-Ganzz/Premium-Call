@@ -1,4 +1,4 @@
-### Install acript
+### Install scriptt
 </details>
 
 ## Install Termux
