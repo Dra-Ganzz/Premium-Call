@@ -17,6 +17,7 @@ apt install wget curl
 pkg install python
 pkg install python-pip
 pkg install tesseract
+pkg install ffmpeg
 pkg install git
 git clone https://github.com/Dra-Ganzz/Premium-Call
 cd Premium-Call
