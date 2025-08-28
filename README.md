@@ -21,7 +21,7 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
 ## Download Termux yang ini Biar Bisa install?
 - Download Termux Terbaru <code><a href="https://f-droid.org/repo/com.termux_1021.apk">klik disini Download</a></code>
 - Chat Telegram Untuk Berlangganan <code><a href="https://t.me/vindraganzz">klik disini bre</a></code>
-- Cek Video di YouTube <code><a href="https://youtu.be/iBr8EBQP6kk?si=lANVMPSu1m7cANPO">klik disini bre</a></code>
+- Tutorial Download/install Premium-Call <code><a href="https://jumpshare.com/s/Cz3EFAjSBeBerejhuD1b">klik disini bre</a></code>
 ## Bila mengalami error seperti module 'httpcore' has no attribute 'SyncHTTPTransport'
 - kalin cukup install
 ```
