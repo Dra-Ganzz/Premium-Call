@@ -20,5 +20,5 @@ update:
 
 run:
 	@git pull
-	@echo "[+] Lagi Di Run Sabar"
-	@bash apps.sh
+	@echo "[+] Lagi Di Run Sabar Ya"
+	@python3 apps.py
