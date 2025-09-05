@@ -13,7 +13,7 @@ install:
 	pip install -r Data/requirements.txt
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
-	@echo "[+] paket berhasil di setup Jalankan make run | bash apps.sh"
+	@echo "[+] paket berhasil di setup Jalankan make run | python3 apps.py"
 
 update:
 	pip install -r Data/requirements.txt
