@@ -18,7 +18,7 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
    <a href="https://github.com/Dra-Ganzz"><img src="http://readme-typing-svg.herokuapp.com?color=FFD700&center=true&vCenter=true&multiline=false&lines=Duar+Follow+github+Vindra+Ganzz+Dong+^_^" alt="UwU">
 
 
-## Download Termux yang ini Biar Bisa install?
+## Downloadd Termux yang ini Biar Bisa install?
 - Download Termux Terbaru <code><a href="https://f-droid.org/repo/com.termux_1021.apk">klik disini Download</a></code>
 - Chat Telegram Untuk Berlangganan <code><a href="https://t.me/vindraganzz">klik disini bre</a></code>
 - Tutorial Download/install Premium-Call <code><a href="https://vt.tiktok.com/ZSDYQcU72/">klik disini bre</a></code>
