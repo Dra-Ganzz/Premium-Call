@@ -13,7 +13,8 @@ install:
 	pip install -r Data/requirements.txt
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
-	@echo "[+] paket berhasil di setup Jalankan make run | python3 apps.py"
+	@printf "\n\n\033[37m[\033[33m*\033[37m] Packet module berhasil diinstall \033[31m.."
+	@printf "\n\033[37m[\033[31m!\033[37m] Jalankan script dg ketik \033[1;30m'\033[0m\033[32mpython3 apps.py\033[1;30m' \033[0m\033[37matau \033[1;30m'\033[0m\033[32mmake run\033[1;30m'\n\n"
 
 update:
 	pip install -r Data/requirements.txt
