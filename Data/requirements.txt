@@ -19,3 +19,7 @@ rich-cli
 httpx
 pypasser
 urllib3
+pydub
+audioop-lts
+legacy-cgi
+standard-aifc
