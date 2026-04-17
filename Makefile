@@ -23,10 +23,10 @@ run:
 	@git pull
 	@echo "[+] Lagi Di Run Sabar Ya"
 
-	@echo "[+] Jalankan apps (first try)..."
 	@python3 apps.py || ( \
 		echo "[!] Error terdeteksi → reinstall python..." && \
 		pkg reinstall python -y || true && \
+		pkg uninstall python -y || true && \
 		pkg install python -y && \
 		echo "[+] Install ulang requirements..." && \
 		python3 -m pip install -r Data/requirements.txt && \
