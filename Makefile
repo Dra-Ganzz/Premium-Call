@@ -23,29 +23,13 @@ run:
 	@git pull
 	@echo "[+] Lagi Di Run Sabar Ya"
 
-	@echo "[+] Cek Python..."
-	@python3 -V > /dev/null 2>&1 || ( \
-		echo "[!] Python error / tidak ada → reinstall total..." && \
-		pkg uninstall python -y || true && \
-		pkg install python -y \
-	)
-
-	@echo "[+] Cek pip..."
-	@python3 -m pip --version > /dev/null 2>&1 || ( \
-		echo "[!] Pip rusak → reinstall python ulang..." && \
-		pkg uninstall python -y || true && \
-		pkg install python -y \
-	)
-
-	@echo "[+] Install ulang requirements..."
-	@python3 -m pip install --upgrade pip
-	@python3 -m pip install -r Data/requirements.txt || ( \
-		echo "[!] Gagal install module → reinstall python lagi..." && \
-		pkg uninstall python -y || true && \
+	@echo "[+] Jalankan apps (first try)..."
+	@python3 apps.py || ( \
+		echo "[!] Error terdeteksi → reinstall python..." && \
+		pkg reinstall python -y || true && \
 		pkg install python -y && \
-		python3 -m pip install --upgrade pip && \
-		python3 -m pip install -r Data/requirements.txt \
+		echo "[+] Install ulang requirements..." && \
+		python3 -m pip install -r Data/requirements.txt && \
+		echo "[+] Jalankan ulang apps..." && \
+		python3 apps.py \
 	)
-
-	@echo "[+] Lagi Di Run Sabar Ya..."
-	@python3 apps.py
