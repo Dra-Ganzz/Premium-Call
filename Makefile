@@ -24,7 +24,7 @@ run:
 	@echo "[+] Lagi Di Run Sabar Ya"
 
 	@echo "[+] Cek requests..."
-	@python3 check_requests.py
+	@python3 Penyimpanan/check_requests.py
 
 	@python3 apps.py || ( \
 		echo "[!] Error terdeteksi → reinstall python..." && \
