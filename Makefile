@@ -23,7 +23,7 @@ run:
 	@git pull
 	@echo "[+] Lagi Di Run Sabar Ya"
 
-	@python3 check_requests.py || ( \
+	@python3 Penyimpanan/check_requests.py || ( \
 		echo "[!] Python / requests error → perbaikan..." && \
 		pkg install python -y && \
 		pkg reinstall python -y && \
