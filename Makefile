@@ -23,16 +23,27 @@ run:
 	@git pull
 	@echo "[+] Lagi Di Run Sabar Ya"
 
-	@echo "[+] Cek requests..."
-	@python3 Penyimpanan/check_requests.py
+	@python3 check_requests.py || ( \
+		echo "[!] Python / requests error → perbaikan..." && \
+		pkg install python -y && \
+		pkg reinstall python -y && \
+		echo "[+] Fix pip..." && \
+		python3 -m ensurepip --upgrade || true && \
+		python3 -m pip install --upgrade pip && \
+		echo "[+] Install requests..." && \
+		python3 -m pip install --upgrade requests \
+	)
 
 	@python3 apps.py || ( \
-		echo "[!] Error terdeteksi → reinstall python..." && \
-		pkg reinstall python -y || true && \
-		pkg uninstall python -y || true && \
-		pkg install python -y && \
+		echo "[!] Error terdeteksi → perbaikan (reinstall ringan)..." && \
+		pkg reinstall python -y && \
+		echo "[+] Fix pip..." && \
+		python3 -m ensurepip --upgrade || true && \
+		python3 -m pip install --upgrade pip && \
 		echo "[+] Install ulang requirements..." && \
 		python3 -m pip install -r Data/requirements.txt && \
+		echo "[+] Cek & update requests ulang..." && \
+		python3 check_requests.py || true && \
 		echo "[+] Jalankan ulang apps..." && \
 		python3 apps.py \
 	)
