@@ -107,8 +107,6 @@ try:
 
             cleanup()
 
-            print("\033[2J\033[H", end="", flush=True)
-
             try:
                 subprocess.run(
                     [sys.executable, "apps.py"],
