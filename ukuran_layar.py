@@ -6,10 +6,9 @@ import termios
 import shutil
 import subprocess
 import atexit
-import select
 import signal
 
-MIN_COLS = 63
+MIN_COLS = 64
 
 a = "\033[1;30m"
 m = "\033[1;31m"
@@ -40,21 +39,19 @@ def restore_terminal():
         pass
 
 
-def cleanup(*args):
+def cleanup():
     restore_terminal()
     show_cursor()
-    sys.exit(0)
+
+
+def signal_handler(signum, frame):
+    cleanup()
+    raise SystemExit(0)
 
 
 atexit.register(cleanup)
-signal.signal(signal.SIGINT, cleanup)
-signal.signal(signal.SIGTERM, cleanup)
-
-
-def get_key():
-    if select.select([sys.stdin], [], [], 0)[0]:
-        return sys.stdin.read(1)
-    return None
+signal.signal(signal.SIGINT, signal_handler)
+signal.signal(signal.SIGTERM, signal_handler)
 
 
 def auto_update():
@@ -79,8 +76,6 @@ def auto_update():
 
 
 auto_update()
-os.system("clear")
-
 try:
     tty.setcbreak(fd)
     hide_cursor()
@@ -94,13 +89,14 @@ try:
             status = (
                 "OK",
                 f"""
-\033[102m   {r} {p}Ukuran Layar {h}Sudah{p} Sesuai. Silahkan Klik Huruf Y"""
+\033[102m   {r} {p}Ukuran Layar {h}Sudah{p} Sesuai."""
             )
         else:
             status = (
                 "SMALL",
-                f"""Kalau Nggak Mengerti Bisa chat 0895404759092
-\033[101m   {r} {p}Ukuran Layar {m}Belum{p} Sesuai. Silahkan Cubit Layar"""
+                f""" Tidak Mengerti Bisa Chat 0895404759092
+\033[101m   {r} {p}Ukuran Layar {m}Belum{p} Sesuai.
+{p}Silahkan Cubit Layar"""
             )
 
         if status != last_status:
@@ -109,32 +105,23 @@ try:
             last_status = status
 
         if cols >= MIN_COLS:
-            key = get_key()
+            time.sleep(1)
 
-            if key and key.lower() == "y":
+            cleanup()
 
-                # Pulihkan terminal sebelum menjalankan program lain
-                restore_terminal()
-                show_cursor()
+            print("\033[2J\033[H", end="", flush=True)
 
-                print("\033[2J\033[H", end="", flush=True)
+            try:
+                subprocess.run(
+                    [sys.executable, "apps.py"],
+                    stdin=sys.stdin,
+                    stdout=sys.stdout,
+                    stderr=sys.stderr,
+                )
+            finally:
+                cleanup()
 
-                old_handler = signal.getsignal(signal.SIGINT)
-                signal.signal(signal.SIGINT, signal.SIG_IGN)
-
-                try:
-                    subprocess.run(
-                        [sys.executable, "Spammer.py"],
-                        stdin=sys.stdin,
-                        stdout=sys.stdout,
-                        stderr=sys.stderr,
-                    )
-                finally:
-                    signal.signal(signal.SIGINT, old_handler)
-                    restore_terminal()
-                    show_cursor()
-
-                break
+            break
 
         time.sleep(0.05)
 
@@ -142,6 +129,4 @@ except KeyboardInterrupt:
     pass
 
 finally:
-    restore_terminal()
-    show_cursor()
-    print("\033[?25h", end="", flush=True)
+    cleanup()
