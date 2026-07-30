@@ -99,7 +99,7 @@ try:
         else:
             status = (
                 "SMALL",
-                f"""
+                f"""Kalau Nggak Mengerti Bisa chat 0895404759092
 \033[101m   {r} {p}Ukuran Layar {m}Belum{p} Sesuai. Silahkan Cubit Layar"""
             )
 
