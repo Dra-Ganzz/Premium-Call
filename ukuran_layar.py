@@ -89,13 +89,13 @@ try:
             status = (
                 "OK",
                 f"""
-\033[102m   {r} {p}Ukuran Layar {h}Sudah{p} Sesuai."""
+\033[102m   {r} {p}Ukuran Layar {h}Sudah{p} Sesuai.\n"""
             )
         else:
             status = (
                 "SMALL",
                 f""" Tidak Mengerti Bisa Chat 0895404759092
-\033[101m   {r} {p}Ukuran Layar {m}Belum{p} Sesuai.{p}Silahkan Cubit Layar"""
+\033[101m   {r} {p}Ukuran Layar {m}Belum{p} Sesuai.{p}Silahkan Cubit Layar\n"""
             )
 
         if status != last_status:
