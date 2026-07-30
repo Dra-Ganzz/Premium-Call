@@ -95,12 +95,10 @@ try:
             status = (
                 "SMALL",
                 f""" Tidak Mengerti Bisa Chat 0895404759092
-\033[101m   {r} {p}Ukuran Layar {m}Belum{p} Sesuai.
-{p}Silahkan Cubit Layar"""
+\033[101m   {r} {p}Ukuran Layar {m}Belum{p} Sesuai.{p}Silahkan Cubit Layar"""
             )
 
         if status != last_status:
-            print("\033[2J\033[H", end="", flush=True)
             print(status[1], end="", flush=True)
             last_status = status
 
