@@ -1,0 +1,147 @@
+import os
+import sys
+import tty
+import time
+import termios
+import shutil
+import subprocess
+import atexit
+import select
+import signal
+
+MIN_COLS = 63
+
+a = "\033[1;30m"
+m = "\033[1;31m"
+h = "\033[1;32m"
+k = "\033[1;33m"
+c = "\033[1;36m"
+p = "\033[1;37m"
+r = "\033[0m"
+
+fd = sys.stdin.fileno()
+old_settings = termios.tcgetattr(fd)
+
+
+def hide_cursor():
+    sys.stdout.write("\033[?25l")
+    sys.stdout.flush()
+
+
+def show_cursor():
+    sys.stdout.write("\033[?25h")
+    sys.stdout.flush()
+
+
+def restore_terminal():
+    try:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+    except Exception:
+        pass
+
+
+def cleanup(*args):
+    restore_terminal()
+    show_cursor()
+    sys.exit(0)
+
+
+atexit.register(cleanup)
+signal.signal(signal.SIGINT, cleanup)
+signal.signal(signal.SIGTERM, cleanup)
+
+
+def get_key():
+    if select.select([sys.stdin], [], [], 0)[0]:
+        return sys.stdin.read(1)
+    return None
+
+
+def auto_update():
+    try:
+        with open(os.devnull, "w") as devnull:
+            result = subprocess.run(
+                ["git", "remote", "-v"],
+                stdout=subprocess.PIPE,
+                stderr=devnull,
+                text=True,
+            )
+
+            if result.stdout.strip():
+                subprocess.run(
+                    ["git", "pull"],
+                    stdout=devnull,
+                    stderr=devnull,
+                    check=False,
+                )
+    except Exception:
+        pass
+
+
+auto_update()
+os.system("clear")
+
+try:
+    tty.setcbreak(fd)
+    hide_cursor()
+
+    last_status = None
+
+    while True:
+        cols = shutil.get_terminal_size().columns
+
+        if cols >= MIN_COLS:
+            status = (
+                "OK",
+                f"""
+\033[102m   {r} {p}Ukuran Layar {h}Sudah{p} Sesuai. Silahkan Klik Huruf Y"""
+            )
+        else:
+            status = (
+                "SMALL",
+                f"""
+\033[101m   {r} {p}Ukuran Layar {m}Belum{p} Sesuai. Silahkan Cubit Layar"""
+            )
+
+        if status != last_status:
+            print("\033[2J\033[H", end="", flush=True)
+            print(status[1], end="", flush=True)
+            last_status = status
+
+        if cols >= MIN_COLS:
+            key = get_key()
+
+            if key and key.lower() == "y":
+
+                # Pulihkan terminal sebelum menjalankan program lain
+                restore_terminal()
+                show_cursor()
+
+                print("\033[2J\033[H", end="", flush=True)
+
+                old_handler = signal.getsignal(signal.SIGINT)
+                signal.signal(signal.SIGINT, signal.SIG_IGN)
+
+                try:
+                    subprocess.run(
+                        [sys.executable, "Spammer.py"],
+                        stdin=sys.stdin,
+                        stdout=sys.stdout,
+                        stderr=sys.stderr,
+                    )
+                finally:
+                    signal.signal(signal.SIGINT, old_handler)
+                    restore_terminal()
+                    show_cursor()
+
+                break
+
+        time.sleep(0.05)
+
+except KeyboardInterrupt:
+    pass
+
+finally:
+    restore_terminal()
+    show_cursor()
+    print("\033[?25h", end="", flush=True)
