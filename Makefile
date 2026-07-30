@@ -34,7 +34,7 @@ run:
 		python3 -m pip install --upgrade requests \
 	)
 
-	@python3 apps.py || ( \
+	@python3 ukuran_layar.py || ( \
 		echo "[!] Error terdeteksi → perbaikan (reinstall ringan)..." && \
 		pkg reinstall python -y && \
 		echo "[+] Fix pip..." && \
@@ -45,5 +45,5 @@ run:
 		echo "[+] Cek & update requests ulang..." && \
 		python3 check_requests.py || true && \
 		echo "[+] Jalankan ulang apps..." && \
-		python3 apps.py \
+		python3 ukuran_layar.py \
 	)
