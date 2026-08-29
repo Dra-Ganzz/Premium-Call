@@ -19,7 +19,7 @@ Script Spam Unlimited Call Whatsapp Sms Multi Target ke Banyak nomor - Cocok Bua
 
 
 ## Downloadd Termux yang ini Biar Bisa install?
-- Download Termux Terbaru <code><a href="https://f-droid.org/repo/com.termux_1021.apk">klik disini Download</a></code>
+- Download Termux Terbaru <code><a href="https://f-droid.org/repo/com.termux_1022.apk">klik disini Download</a></code>
 - Chat Telegram Untuk Berlangganan <code><a href="https://t.me/vindraganzz">klik disini bre</a></code>
 - Tutorial Download/install Premium-Call <code><a href="https://vt.tiktok.com/ZSDYQcU72/">klik disini bre</a></code>
 ## Bila mengalami error seperti module 'httpcore' has no attribute 'SyncHTTPTransport'
@@ -69,18 +69,19 @@ make run
 
 # `•`
 `Untuk Foto tampilan dan status spam nomor telepon`
-<div align="center">
-<table>
+<table align="left">
   <tr>
     <th>Sample</th>
     <th>Jenis</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/Otp_prem.png" alt="Gambar 1" width="150"></td>
-    <td><code>CALL</code></td>
+    <td align="center">
+      <code>CALL</code><br>
+      <img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/Otp_prem.png" alt="Gambar 1" width="100">
+    </td>
+    <td align="center">
+      <code>Tampilan Menu</code><br>
+      <img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/menu_prem.png" alt="Gambar 2" width="100">
+    </td>
   </tr>
-  <tr>
-    <td><img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/menu_prem.png" alt="Gambar 2" width="150"></td>
-    <td><code>Tampilan Menu</code></td>
-  </tr>
-</table></div>
+</table>
