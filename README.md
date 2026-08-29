@@ -81,7 +81,7 @@ make run
     </td>
     <td align="center">
       <code>Tampilan Menu</code><br>
-      <img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/menu_prem.png" alt="Gambar 2" width="100">
+      <img src="https://github.com/Dra-Ganzz/SERVERS/blob/main/Premium-Call/Screenshot_20260830-054920.png" alt="Gambar 2" width="100">
     </td>
   </tr>
 </table>
