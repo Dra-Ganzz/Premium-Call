@@ -23,17 +23,6 @@ run:
 	@git pull
 	@echo "[+] Lagi Di Run Sabar Ya"
 
-	@python3 Penyimpanan/check_requests.py || ( \
-		echo "[!] Python / requests error → perbaikan..." && \
-		pkg install python -y && \
-		pkg reinstall python -y && \
-		echo "[+] Fix pip..." && \
-		python3 -m ensurepip --upgrade || true && \
-		python3 -m pip install --upgrade pip && \
-		echo "[+] Install requests..." && \
-		python3 -m pip install --upgrade requests \
-	)
-
 	@python3 ukuran_layar.py || ( \
 		echo "[!] Error terdeteksi → perbaikan (reinstall ringan)..." && \
 		pkg reinstall python -y && \
