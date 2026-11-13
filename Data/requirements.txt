@@ -16,6 +16,7 @@ dns-client
 cloudscraper
 faker
 rich-cli
+curl_cffi
 httpx
 pypasser
 urllib3
